@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEEPFAKE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <div id="nav" class="nav">
+      <img class="nav__logo" src="images/netflix-logo.png" alt="" />
+      <a href="">Inicio</a>
+        <a href="">¿Qué es?</a>
+        <a href="">Usos</a>
+        <a href="">Lo Positivo</a>
+        <a href="#">Lo Negativo</a>
+        <a target="" href="">Futuro</a>       
+      <img class="nav__avatar" src="images/Avatar-Leo.png" alt="" />
+    </div>
+
+    <!-- header -->
+    <header class="banner">
+      <div class="banner__contents">
+        <h1 class="banner__title">DEEPFAKE</h1>
+        <div class="banner__buttons">
+<h2>Y su uso en HOLLYWOOD</h2>
+        </div>
+        <h1 class="banner__description">
+          ¿Por qué la cara de este actor se ve tan rara? ¿Por qué parece más joven? ¿Por qué hay una huelga de actores? ¿Qué se puede esperar de un cine invadido por caras falsas?
+        </h1>
+      </div>
+      <div class="banner--fadeBottom"></div>
+    </header>
+
+
+    <!-- Trending Now -->
+    <div class="row">
+      <h2>Solo en Fakeflix</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/Leo0.png" alt="" />
+
+        <img class="row__poster" src="images/Leo1.png" alt="" />
+
+        <img class="row__poster" src="images/Leo3.png" alt="" />
+
+        <img class="row__poster" src="images/Leo4.png" alt="" />
+
+
+      </div>
+    </div>
+
+    <!-- Top Rated -->
+    <div class="row">
+      <h2>Aprendiendo</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/Aprendiendo0.png" alt="" />
+
+        <img class="row__poster" src="images/Aprendiendo1.png" alt="" />
+
+        <img class="row__poster" src="images/Aprendiendo2.png" alt="" />
+
+        <img class="row__poster" src="images/Aprendiendo3.png" alt="" />
+
+
+
+      </div>
+    </div>
+
+    <!-- Action Movies -->
+    <div class="row">
+      <h2>Para disfrutar</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/Positivo0.png" alt="" />
+
+        <img class="row__poster" src="images/Positivo1.png" alt="" />
+
+        <img class="row__poster" src="images/Positivo2.png" alt="" />
+
+        <img class="row__poster" src="images/Positivo3.png" alt="" />
+
+        <img class="row__poster" src="images/Positivo4.png" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Comedy Movies -->
+    <div class="row">
+      <h2>Drama y suspenso</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/Negativo0.png" alt="" />
+
+        <img class="row__poster" src="images/Negativo1.png" alt="" />
+
+        <img class="row__poster" src="images/Negativo2.png" alt="" />
+
+        <img class="row__poster" src="images/Negativo3.png" alt="" />
+
+        <img class="row__poster" src="images/Negativo4.png" alt="" />
+
+ 
+      </div>
+    </div>
+
+    <!-- Horror Movies -->
+    <div class="row">
+      <h2>Futuro</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/Futuro0.png" alt="" />
+
+        <img class="row__poster" src="images/Futuro1.png" alt="" />
+
+        <img class="row__poster" src="images/Futuro2.png" alt="" />
+
+        <img class="row__poster" src="images/Futuro3.png" alt="" />
+
+        <img class="row__poster" src="images/Futuro4.png" alt="" />
+
+      </div>
+    </div>
+
+    
+    <script>
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add('nav__black');
+        } else {
+          nav.classList.remove('nav__black');
+        }
+      });
+    </script>
+  </body>
+</html>
